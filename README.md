@@ -1,0 +1,123 @@
+<div align="center">
+
+# 你好，我是 Charlie 👋
+
+**从桌面运维工程师 → AI 应用开发工程师，正在转行路上**
+
+我原本是一名驻场桌面运维工程师，2026 年开始自学 AI 应用开发。
+下面是我的学习轨迹与作品，每一个项目都是真实可用、可在线访问的。
+
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Qwen](https://img.shields.io/badge/通义千问-Qwen-615EFF?style=flat-square)](https://dashscope.aliyun.com)
+[![GitHub](https://img.shields.io/badge/GitHub-licharlie203-181717?style=flat-square&logo=github)](https://github.com/licharlie203)
+
+</div>
+
+---
+
+## 🚀 在线作品（可直接打开体验）
+
+| 项目 | 说明 | 在线地址 |
+|------|------|---------|
+| **AI 文档问答** | 上传文档，用自然语言提问，答案可溯源（RAG） | [ai-doc-qa.app.workbuddy.host](https://ai-doc-qa.app.workbuddy.host/) |
+| **AI 网页助手** | 多轮对话 + 多语言翻译 | [ai-web-assistant.app.workbuddy.host](https://ai-web-assistant.app.workbuddy.host/) |
+
+---
+
+## 📦 开源项目
+
+<details>
+<summary><b>🔍 ai-doc-qa — AI 文档问答（RAG 知识库）</b></summary>
+
+基于通义千问 + Streamlit 的检索增强生成应用，支持 TXT / MD / PDF / DOCX。
+
+- 完整 RAG 流程：文档解析 → 分块 → 向量化 → 余弦相似度检索 → LLM 生成
+- 答案附带参考片段与相似度评分，**可溯源**
+- 通过 Prompt 约束实现**防幻觉**：资料中没有时会主动拒答
+
+技术栈：Python · Streamlit · text-embedding-v3 · NumPy · pypdf
+
+[查看仓库](https://github.com/licharlie203/ai-doc-qa) · [在线体验](https://ai-doc-qa.app.workbuddy.host/)
+</details>
+
+<details>
+<summary><b>🤖 ai-web-assistant — AI 网页助手</b></summary>
+
+网页版 AI 应用，支持多轮上下文对话与六种语言翻译。
+
+- 使用 `st.session_state` 管理会话状态，实现跨交互记忆
+- API Key 三级读取：云端 Secrets → 环境变量 → 本地配置
+- 侧边栏功能切换、清空对话、加载状态提示
+
+技术栈：Python · Streamlit · Requests · 通义千问 API
+
+[查看仓库](https://github.com/licharlie203/ai-web-assistant) · [在线体验](https://ai-web-assistant.app.workbuddy.host/)
+</details>
+
+<details>
+<summary><b>🌐 ai-translator — AI 翻译工具</b></summary>
+
+命令行版翻译工具，调用大模型 OpenAI 兼容接口，支持交互式多语言翻译。
+包含完善的异常处理与友好错误提示。
+
+[查看仓库](https://github.com/licharlie203/ai-translator)
+</details>
+
+<details>
+<summary><b>📁 file-organizer — 文件整理工具</b></summary>
+
+这是我的**第一个 Python 作品**，也是转行起点。
+支持按文件类型 / 按修改日期两种整理模式，采用"先预览后执行"的安全设计。
+
+[查看仓库](https://github.com/licharlie203/file-organizer)
+</details>
+
+---
+
+## 🛠 技能栈
+
+**语言**：Python
+
+**AI 应用**：大模型 API 调用 · Prompt Engineering · RAG · 向量检索（Embedding）
+
+**框架与库**：Streamlit · Requests · NumPy · pypdf · python-docx
+
+**工具**：Git / GitHub · VS Code · pip · Streamlit Cloud 部署
+
+**其他**：3 年企业桌面运维经验，熟悉企业 IT 环境与硬件故障排查
+
+---
+
+## 📈 学习路线
+
+```
+Python 基础 ✅ → 调用大模型 API ✅ → 网页界面 ✅ → 部署上线 ✅ → RAG 基础 ✅
+                                                              ↓
+                          向量数据库 + 重排序（进行中） → Agent 开发 → 垂直场景项目 → 求职
+```
+
+- [x] 掌握 Python 基础语法与文件操作
+- [x] 独立完成大模型 API 调用
+- [x] 用 Streamlit 构建网页应用
+- [x] 项目部署上线，生成公网访问链接
+- [x] 实现 RAG 检索增强问答
+- [ ] Chroma 向量数据库 + Rerank 重排序
+- [ ] Agent 开发（工具调用）
+- [ ] FastAPI + Docker 工程化
+- [ ] 垂直行业落地项目
+
+---
+
+## 💡 关于我
+
+- 🏢 目前在比亚迪驻场做桌面运维，利用空闲时间自学转行
+- 🎯 目标岗位：**AI 应用开发工程师**（不走算法研究路线）
+- 📚 每天都在学，每天都在往 GitHub 提交东西
+- 🤝 欢迎交流 AI 应用开发、RAG、Agent 相关话题
+
+<div align="center">
+
+**持续学习中 · 每天进步一点点**
+
+</div>
